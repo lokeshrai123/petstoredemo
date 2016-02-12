@@ -39,10 +39,10 @@ import main.sort.SortById;
 @Path("/petstore")
 public class PetStoreService {
 	
-	@Path("/addByTags/{tagid}")
+	@Path("/addByTags/{tagname}")
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
-	public String addPetsByTag(@PathParam("tagid") String tagid) {
+	public String addPetsByTag(@PathParam("tagname") String tagname) {
 		System.out.println("Add Pets by tag from service .... \n");
 		String output = "";
 		try {
@@ -57,7 +57,7 @@ public class PetStoreService {
 
 				String input = "{\"id\":0," + "\"category\":{\"id\":0,\"name\":\"string\"},"
 						+ "\"name\":\"doggie\",\"photoUrls\":[\"string\"]," + "\"tags\":[{\"id\":" + i + ",\"name\":\""
-						+ tagid + "\"}]," + "\"status\":\"available\"}";
+						+ tagname + "\"}]," + "\"status\":\"available\"}";
 
 				ClientResponse response = webResource.type("application/json").post(ClientResponse.class, input);
 
@@ -241,10 +241,10 @@ public class PetStoreService {
 
 
 
-	@Path("/findByTags/{tagid}")
+	@Path("/findByTags/{tagname}")
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public String getPetByTag(@PathParam("tagid") String tagid) {
+	public String getPetByTag(@PathParam("tagname") String tagname) {
 
 		System.out.println("\nGet Pets from service by tag .... ");
 
@@ -254,7 +254,7 @@ public class PetStoreService {
 
 			Client client = Client.create();
 
-			WebResource webResource = client.resource("http://petstore.swagger.io/v2/pet/findByTags?tags=" + tagid);
+			WebResource webResource = client.resource("http://petstore.swagger.io/v2/pet/findByTags?tags=" + tagname);
 
 			ClientResponse response = webResource.accept("application/json").get(ClientResponse.class);
 
