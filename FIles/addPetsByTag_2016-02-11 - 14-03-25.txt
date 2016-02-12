@@ -1,0 +1,5 @@
+{"id":7431699383703896570,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"}
+{"id":7431699383703896571,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1,"name":"tag1"}],"status":"available"}
+{"id":7431699383703896572,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":2,"name":"tag1"}],"status":"available"}
+{"id":7431699383703896573,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":3,"name":"tag1"}],"status":"available"}
+{"id":7431699383703896574,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":4,"name":"tag1"}],"status":"available"}

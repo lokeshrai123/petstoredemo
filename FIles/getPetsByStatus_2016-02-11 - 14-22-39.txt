@@ -1,0 +1,19 @@
+{"tags":[],"id":1,"status":"available","name":"a","photoUrls":[]}
+{"tags":[{"id":0,"name":"string"}],
+"id":3,"category":{"id":0,"name":"string"},"status":"available","name":"diggie","photoUrls":["string"]}
+{"tags":[{"id":1,"name":"dilbert"}],
+"id":4,"category":{"id":2,"name":"canine"},"status":"available","name":"doggiea","photoUrls":["http://static2.businessinsider.com/image/525e97dfeab8ead530928bff-480-/dt100912combht.jpg"]}
+{"tags":[{"id":0,"name":"string"}],"id":10,"category":{"id":0,"name":"string"},"status":"available","name":"doggie1","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"doggie"}],"id":11,"category":{"id":12,"name":"canine"},"status":"available","name":"doggie 11","photoUrls":["http://media.npr.org/assets/img/2013/10/18/dilbert_custom-1753db19267dacbc24468f088770ef4893deea44.jpg"]}
+{"tags":[{"id":0,"name":"string"}],"id":15,"category":{"id":0,"name":"string"},"status":"available","name":"mydoggie","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":20,"category":{"id":20,"name":"string"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":39,"category":{"id":39,"name":"blub"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":42,"name":"string"}],"id":42,"category":{"id":42,"name":"string"},"status":"available","name":"string","photoUrls":["string","string2"]}
+{"tags":[{"id":0,"name":"string"}],"id":55,"category":{"id":0,"name":"string"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":66,"category":{"id":0,"name":"string"},"status":"available","name":"Bert","photoUrls":["string"]}
+{"tags":[],"id":75,"status":"available","name":"a","photoUrls":[]}
+{"tags":[{"id":0,"name":"string"}],"id":88,"category":{"id":0,"name":"string"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":99,"category":{"id":0,"name":"string"},"status":"available","name":"Mr. Fluffernutter","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":121,"category":{"id":0,"name":"string"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":3,"name":"Hello"}],"id":123,"category":{"id":234,"name":"Ritch"},"status":"available","name":"doggie","photoUrls":["string"]}
+{"tags":[{"id":0,"name":"string"}],"id":200,"category":{"id":111,"name":"just"},"status":"available","name":"doggie","photoUrls":["string"]}
